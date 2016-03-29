@@ -21,7 +21,7 @@ import java.time.temporal.TemporalUnit;
  *  
  * @author Yasir Cheema
  */
-public class DateUtilities {
+public class DateUtilitiesLab {
     
     /**
      * Return a String of a LocalDate object only not for LocalDateTime.
@@ -260,7 +260,7 @@ public class DateUtilities {
         LocalDateTime endDate = startDate.plusDays(4);
         System.out.println(startDate);
         System.out.println(endDate);
-        DateUtilities dateUtilities = new DateUtilities();
+        DateUtilitiesLab dateUtilities = new DateUtilitiesLab();
         System.out.println("FirstDate "+dateUtilities.toStrin(startDate, 
                 DateTimeFormatter.ISO_DATE_TIME));
         System.out.println("Secon Date " + dateUtilities.toStrin(endDate, 
